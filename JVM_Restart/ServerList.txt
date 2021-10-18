@@ -1,0 +1,1 @@
+servername:port_no:service_name:type(user/admin/service/streeming)
