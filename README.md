@@ -5,6 +5,7 @@ follw below steps before running the file
 * WinRam config should be enable
 * add the server and port details in "ServerList.txt" file in below formate
         * servername:port_no:service_name:type(user/admin/service/streeming)
+       
        # in "main.ps1" file:
               * $URLListFile = "<filelocation>\ServerList.txt" #add .txt file location here
               * $Action_Stop="Stop"  --> commient this line if you don't want to stop nodes
