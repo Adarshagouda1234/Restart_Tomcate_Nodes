@@ -7,10 +7,11 @@
         $result=''
         $Action=''
         $stoptime=0 
-        $TEMPPATH="D:\PEGA_TEMP\$JVMNAME\" 
-        $NodeURL="https://$computername.us.ad.wellpoint.com:$port/prweb"
+        $TEMPPATH="<add temp file location here >\$JVMNAME\" # add temp file location here
+        $NodeURL="https://$computername.<add domain name here >:$port/" # add domain id here for a web request/ url format
             echo "***** Node URL is $NodeURL  ****** `n"
 
+#bypass cert through trusted web request
          add-type @"
 
             using System.Net;   
