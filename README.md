@@ -2,7 +2,10 @@
 .ps1 script can use to remote restart multiple Tomcat nodes located in different windows servers 
 
 follw below steps before running the file
-* WinRam config should be enable
+* open files as admin mode
+* By default file will pickup HOST credentials for remote servers
+* credentials should have admin access for all servers
+* WinRam config should be enabled in all remote servers
 * add the server and port details in "ServerList.txt" file in below formate
         * servername:port_no:service_name:type(user/admin/service/streeming)
        
